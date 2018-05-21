@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Application POM Automation suite]">
+  <listeners>
+    <listener class-name="Project.qa.ExtentReportListner.ExtentReportListener"/>
+  </listeners>
+  <test name="Application Automation Test Cases(failed)">
+    <classes>
+      <class name="project.qa.TestCases.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyContactsLinkTest"/>
+          <include name="verifyUserNameTest"/>
+        </methods>
+      </class> <!-- project.qa.TestCases.HomePageTest -->
+      <class name="project.qa.TestCases.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- project.qa.TestCases.LoginPageTest -->
+      <class name="project.qa.TestCases.ContactsPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- project.qa.TestCases.ContactsPageTest -->
+    </classes>
+  </test> <!-- Application Automation Test Cases(failed) -->
+</suite> <!-- Failed suite [Application POM Automation suite] -->
